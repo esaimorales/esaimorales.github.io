@@ -91,12 +91,22 @@ li a:hover:not(.active) {
 
 }
 
+.git_logo2 {
+    color: #032B2F;
+    float: right;
+    padding: 10px;
+}
+
+.git_logo2:hover {
+    color: #D0D3C5;
+}
+
 .git_logo {
     float: right;
     color: black;
 }
 
-.fa-github:hover {
+.git_logo:hover {
     color: gray;
 }
 
