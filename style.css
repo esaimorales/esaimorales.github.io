@@ -67,7 +67,7 @@ li a:hover:not(.active) {
 }
 
 /* responsive design elements */
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
