@@ -12,10 +12,10 @@
 
 <xs:element name="position">
     <xs:complexType>
-        <xs:all>
+        <xs:sequence>
             <xs:element name="latitude" type="xs:string"/>
             <xs:element name="longitude" type="xs:string"/>
-        </xs:all>
+        </xs:sequence>
     </xs:complexType>
 </xs:element>
 
