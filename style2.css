@@ -1,0 +1,147 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+}
+
+hr{
+    width: 69px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    float: left;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 300;
+}
+
+hl{
+    font-weight: 700;
+}
+
+#intro{
+    width: 60%;     /* change in media queries */
+    font-weight: 300;
+}
+
+
+.section_label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.container{
+    width: 100%;
+    margin: 0;
+    /* background: whitesmoke; */
+}
+
+/* HEADER */
+
+.header{
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 6fr 1fr);
+}
+
+.header > div:nth-child(odd){
+    /* background-color: #fae; */
+}
+
+.header > div:nth-child(even){
+    /* background-color: #cfe; */
+
+    padding-left: 1em;
+}
+
+/* CONTAINER */
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 6fr 1fr);
+}
+
+.main-content > div:nth-child(odd){
+
+}
+
+.main-content > div:nth-child(even){
+
+}
+
+
+/* LEFT */
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.left-content > div {
+    padding-left: 1em;
+}
+
+#sideNav{
+    /* background-color: #adc; */
+    display: none;
+    /* height: 40%; */
+    /* position: fixed; */
+}
+
+/* RIGHT */
+
+.mid-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.mid-content > div {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* PROJECT CARDS */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+    grid-gap: 1em;
+}
+
+.cards > div{
+    border: 1px solid gray;
+    padding: 1em;
+}
+
+.cards > div:nth-child(odd){
+    background-color: #faa;
+}
+
+.cards > div:nth-child(even){
+    background-color: #aff;
+}
+
+/* SECTIONS */
+
+#intro{
+    /* font-size: 1.2em; */
+    font-weight: 300;
+}
+
+#about{
+    /* background-color: #afd; */
+}
+
+#projects{
+    /* background-color: #acd; */
+}
+
+#experience{
+    /* background-color: #aaf; */
+}
