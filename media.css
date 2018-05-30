@@ -24,8 +24,24 @@
         width: 90%;
     }
 
+    #projects {
+
+    }
+
     .cards{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .job{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .job > div:nth-child(even){
+        text-align: justify;
+    }
+
+    .code_project{
+        font-size: 90%;
     }
 
 }
