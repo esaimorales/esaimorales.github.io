@@ -1,8 +1,9 @@
 @media only screen
     and (min-device-width: 375px)
-    and (max-device-width: 667px)
-    and (-webkit-device-pixel-ratio : 3){
+    /* and (max-device-width: 667px) */
+    /* and (-webkit-device-pixel-ratio : 3) */
 
+    {
     .main-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -22,6 +23,10 @@
 
     #intro{
         width: 90%;
+    }
+
+    #experience{
+        width: 100%;
     }
 
     #projects {
