@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 hr{
@@ -24,7 +26,7 @@ hl{
 }
 
 #intro{
-    width: 60%;     /* change in media queries */
+    width: 60%;
     font-weight: 300;
 }
 
@@ -81,14 +83,7 @@ hl{
 }
 
 .left-content > div {
-    padding-left: 1em;
-}
-
-#sideNav{
-    /* background-color: #adc; */
-    display: none;
-    /* height: 40%; */
-    /* position: fixed; */
+    /* padding-left: 1em; */
 }
 
 /* RIGHT */
@@ -102,7 +97,7 @@ hl{
 .mid-content > div {
     padding-left: 1em;
     padding-right: 1em;
-    min-height: 500px;
+    min-height: 800px;
 }
 
 /* PROJECT CARDS */
@@ -172,18 +167,23 @@ hl{
 }
 
 #about{
+    width: 70%;
     /* background-color: #afd; */
     font-size: 1.2em;
 }
 
 #projects{
-    width: 60%;
+    width: 70%;
     /* background-color: #acd; */
 }
 
 #experience{
     width: 70%;
     /* background-color: #aaf; */
+}
+
+#codes{
+    width: 70%;
 }
 
 emp{
@@ -231,4 +231,12 @@ h3 > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.logo{
+    margin: 0 auto;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
 }
