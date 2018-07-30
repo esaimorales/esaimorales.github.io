@@ -1,59 +1,275 @@
-<!DOCTYPE html>
-
+<!DOCTYPE>
 <html>
 
+
 <head>
+    <!-- META -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="media.css" />
+
+    <!-- JS -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,800" rel="stylesheet">
+
+    <!-- TITLE -->
     <title>Esai Morales</title>
+
+    <!-- ICONS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
 </head>
 
 <body>
-    <!-- <div class="header">
-        <h2>Esai Morales </h2>
-    <div> -->
 
-    <article id="sidebar">
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <!-- <li><a href="about.html">About</a></li> -->
-        </ul>
-    </article>
+    <div class="container">
 
-    <article id="maincontent">
-        <h2>Esai Morales</h2>
-
-        <img id="profile" src="images/profile.png"/>
-
-        <h3>Santa Clara University</h3>
-        <h3>Computer Science and Engineering</h3>
-
-        <h4 style="width: 75%">
-            Hey! My name is Esai, I was born and raised in Portland, Oregon
-            but now live in California where I study Computer Science and
-            Engineering with a minor in Music at Santa Clara University.
-            Outside of class, I enjoy playing classical guitar and perform with
-            Mariachi de Santa Clara at community events.
-        <h4>
-
-        <div style="float: left">
-            <a class="git_logo2" href="mailto:emorales@scu.edu">
-                <i class="fa fa-envelope fa-2x" aria-hidden="true" href="mailto:emorales@scu.edu"></i>
-            </a>
-
-            <a class="git_logo2" href="https://www.linkedin.com/in/esai-morales-4a7867128/">
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-            </a>
-
-            <a class="git_logo2" href="https://github.com/esaimorales">
-                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            </a>
+    <!-- <header class="header">
+        <div>
+            <a href="#" onclick="toggleNavigation();" class="menu example5"><span></span></a>
         </div>
-    </article>
 
+        <div>
+            <h1>ESAI MORALES</h1>
+        </div>
+
+        <div>
+        </div>
+    </header> -->
+
+    <div class="main-content">
+
+        <!-- LEFT -->
+        <div class="left-content" id="contact">
+        </div>
+
+        <!-- RIGHT -->
+        <div class="mid-content">
+
+            <div id="about" class="section">
+                <div id="intro">
+                    <br>
+                    <p style="padding-bottom: 50px; padding-top:70px;"><hl>Hey!</hl></p>
+                    <p>
+                        My name is <hl>Esai Morales</hl>. I study Computer Science and
+                        Engineering at Santa Clara University and have a passion for web
+                        development, specifically front-end design. Check out my projects,
+                        experience, and resume below!
+                    </p>
+                </div>
+
+                <div style="float: left;">
+                    <a class="logo" href="mailto:emorales@scu.edu">
+                        <!-- <i class="fa fa-envelope fa-2x" aria-hidden="true" href="mailto:emorales@scu.edu"></i> -->
+                        <i class="far fa-envelope"></i>
+                    </a>
+
+                    <a class="logo" href="https://www.linkedin.com/in/esai-morales-4a7867128/">
+                        <!-- <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> -->
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a class="logo" href="https://github.com/esaimorales">
+                        <!-- <i class="fa fa-github fa-2x" aria-hidden="true"></i> -->
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="experience" class="section">
+                <hr>
+                <h2 class="section_label">EXPERIENCE</h2>
+                <br>
+
+                <div class="job">
+                    <div>
+                    <emp>U.S. Bank</emp>
+                    <br>
+                    <ttl>Software Engineering Intern<ttl>
+                    </div>
+
+                    <div>
+                    <dat>Jun - Sept 2017</dat>
+                    </div>
+                </div>
+
+
+                <div class="job">
+                    <div>
+                    <emp>Santa Clara University, CPD</emp>
+                    <br>
+                    <ttl>Website Technician<ttl>
+                    </div>
+
+                    <div>
+                    <dat>Jun 2016 - Jun 2018</dat>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div>
+                    <emp>D2D Nonprofit</emp>
+                    <br>
+                    <ttl>Web Developer Intern<ttl>
+                    </div>
+
+                    <div>
+                    <dat>Jan - Jun 2017</dat>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div>
+                    <emp>Nike Company Store</emp>
+                    <br>
+                    <ttl>Sales Associate<ttl>
+                    </div>
+
+                    <div>
+                    <dat>Summer 2014, 2015</dat>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="projects" class="section">
+                <hr>
+                <h2 class="section_label">LATEST PROJECTS</h2>
+                <h3 class="project_label">
+                    <a href="https://scholarcommons.scu.edu/cseng_senior/113/">News Breaking: Fake News Detection and Facts Summarization</a>
+                </h3>
+
+                <div class="cards">
+                    <!-- <h3 class="project_label">
+                        <a href="https://scholarcommons.scu.edu/cseng_senior/113/">News Breaking: Fake News Detection and Facts Summarization</a>
+                    </h3> -->
+
+                    <div>
+                        <img src="images/mobile_main_page.png" style="width:200px;"/>
+                    </div>
+
+                    <div>
+                        <img src="images/mobile_menu_page.png" style="width:200px;" />
+                    </div>
+
+                    <div>
+                        <img src="images/mobile_sources_view.png" style="width:200px;" />
+
+                    </div>
+
+
+
+                </div>
+            </br>
+                <div>
+                    News Breaking scrapes the web for news articles on a current event, compares them against each other to identify claims likely to be true, and presents a succinct, fact-based summary to the reader.
+                </div>
+            </br>
+                <div class="langs">
+                    HTML5
+                </div>
+                <div class="langs">
+                    CSS3
+                </div>
+                <div class="langs">
+                    JavaScript
+                </div>
+                <div class="langs">
+                    Bootstrap
+                </div>
+            </div>
+
+            <div id="codes" class="section">
+                <hr>
+                <h2 class="section_label">OTHER CODE PROJECTS</h2>
+
+                <div class="code_project">
+                    <h3 class="project_label">
+                        <a href="https://github.com/esaimorales/Movie_Recommendation_System">Movie Recommendation System</a>
+                    </h3>
+                    <p>
+                        A movie rating predictor using a 200 test-user dataset with 1000 movie ratings each.
+                        Implemented collaborative filtering and ensemble algorithms.
+                    </p>
+                    <div class="langs">
+                        python
+                    </div>
+                </div>
+
+                <div class="code_project">
+                    <h3 class="project_label">
+                        <a href="https://github.com/esaimorales/Spam-Classification">Simple C Compiler</a>
+                    </h3>
+                    <p>
+                        A compiler for a subset of the C language, implemented in C++.
+                    </p>
+                    <div class="langs">
+                        c++
+                    </div>
+                </div>
+
+                <div class="code_project">
+                    <h3 class="project_label">
+                        <a href="https://github.com/esaimorales/Toxic-Comment-Classification">Toxic Comment Classification</a>
+                    </h3>
+                    <p>
+                        Implemented an online comment classifier to detect varying levels of toxicity.
+                    </p>
+                    <div class="langs">
+                        python
+                    </div>
+                    <div class="langs">
+                        scikit-learn
+                    </div>
+                </div>
+
+                <div class="code_project">
+                    <h3 class="project_label">
+                        <a href="https://github.com/esaimorales/Spam-Classification">Spam Detector</a>
+                    </h3>
+                    <p>
+                        A simple spam detector that uses Logistic Regression for classifying email messages.
+                    </p>
+                    <div class="langs">
+                        python
+                    </div>
+                    <div class="langs">
+                        scikit-learn
+                    </div>
+                </div>
+            </div>
+
+            <div id="resume" class="section">
+                <hr>
+                <h2 class="section_label">RESUME</h2>
+
+                <p>
+                    CHECK OUT MY RESUME
+                    <a  href="MoralesEsaiResume.pdf" >
+                    <i style="color:#007bff;" class="fas fa-angle-double-right"></i>
+                    </a>
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="right-content">
+        </div>
+
+
+    </div>
+
+    </div>
 </body>
 
-</html>
+<html>

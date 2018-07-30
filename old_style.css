@@ -1,0 +1,123 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+}
+
+/* Header */
+
+/*.header {
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    border-bottom: solid;
+}*/
+
+#sidebar {
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+
+#maincontent {
+    float: right;
+    width: 75%;
+}
+/* Navigation Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: whitesmoke;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #08708A;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #56B1BF;
+    color: white;
+}
+
+
+.wrapper > div {
+    background: whitesmoke;
+    padding: 1em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    /*padding-left: 2em;*/
+    padding-right: 2em;
+}
+
+/* responsive design elements */
+@media only screen and (max-width: 1000px){
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+.box{
+    text-align: center;
+}
+
+.language_box {
+    border-radius: 4px;
+    float: left;
+    padding: 5px;
+    color: white;
+    margin: 2px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.git_logo2 {
+    color: #032B2F;
+    float: right;
+    padding: 10px;
+}
+
+.git_logo2:hover {
+    color: #D0D3C5;
+}
+
+.git_logo {
+    float: right;
+    color: black;
+}
+
+.git_logo:hover {
+    color: gray;
+}
+
+#profile{
+    width: 15%;
+}
+
+#logo {
+    width: 70%;
+}
+
+.location_pin {
+    float: left;
+}

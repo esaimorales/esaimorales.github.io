@@ -1,123 +1,248 @@
 body{
-    font-family: 'Quicksand', sans-serif;
-    background-color: white;
-}
-
-/* Header */
-
-/*.header {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
     overflow: hidden;
-    top: 0;
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    border-bottom: solid;
-}*/
+    overflow-y: auto;
+}
 
-#sidebar {
+hr{
+    width: 69px;
+    height: 2px;
+    background-color: black;
+    border: none;
     float: left;
-    width: 20%;
-    padding: 2%;
 }
 
-#maincontent {
-    float: right;
-    width: 75%;
+h1{
+    font-weight: 700;
 }
-/* Navigation Bar */
 
-ul {
-    list-style-type: none;
+p{
+    font-weight: 300;
+}
+
+hl{
+    font-weight: 700;
+}
+
+#intro{
+    width: 60%;
+    font-weight: 300;
+}
+
+.section{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.section_label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #007bff;
+}
+
+.container{
+    width: 100%;
     margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: whitesmoke;
-    float: right;
+    /* background: whitesmoke; */
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
+/* HEADER */
 
-li a.active {
-    background-color: #08708A;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #56B1BF;
-    color: white;
-}
-
-
-.wrapper > div {
-    background: whitesmoke;
-    padding: 1em;
-}
-
-.wrapper {
+.header{
+    background-color: white;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
-    /*padding-left: 2em;*/
-    padding-right: 2em;
+    grid-template-columns: repeat(1, 1fr 6fr 1fr);
 }
 
-/* responsive design elements */
-@media only screen and (max-width: 1000px){
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1em;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
+.header > div:nth-child(odd){
+    /* background-color: #fae; */
 }
 
-.box{
-    text-align: center;
+.header > div:nth-child(even){
+    /* background-color: #cfe; */
+
+    padding-left: 1em;
 }
 
-.language_box {
+/* CONTAINER */
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 6fr 1fr);
+}
+
+/* LEFT */
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.left-content > div {
+    /* padding-left: 1em; */
+}
+
+/* RIGHT */
+
+.mid-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 60%; */
+}
+
+.mid-content > div {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 100px;
+}
+
+/* PROJECT CARDS */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    /* grid-gap: 1em; */
+}
+
+.cards > div{
+    border: 1px solid white;
+    padding: 1em;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards > div:nth-child(odd){
+    background-color: #faa;
+}
+
+.cards > div:nth-child(even){
+    background-color: #aff;
+}
+
+/* EXPERIENCE  */
+
+.job {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+}
+
+.job > div{
+    /* border: 1px solid gray; */
+    padding-bottom: 1em;
+}
+
+.job > div:nth-child(even){
+    text-align: right;
+}
+
+/* LANGS */
+
+.langs {
     border-radius: 4px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0px;
     float: left;
     padding: 5px;
-    color: white;
-    margin: 2px;
-    font-family: 'Ubuntu', sans-serif;
-
+    margin-right: 5px;
+    margin-top:5px;
+    /* font-size: 90%; */
 }
 
-.git_logo2 {
-    color: #032B2F;
-    float: right;
-    padding: 10px;
+/* CODE PROJECTS */
+
+.code_project{
+    padding-bottom: 3em;
 }
 
-.git_logo2:hover {
-    color: #D0D3C5;
+
+/* SECTIONS */
+
+#intro{
+    /* font-size: 1.2em; */
+    font-weight: 300;
 }
 
-.git_logo {
-    float: right;
-    color: black;
+#about{
+    width: 70%;
+    /* background-color: #afd; */
+    font-size: 1.2em;
 }
 
-.git_logo:hover {
-    color: gray;
+#projects{
+    width: 70%;
+    /* background-color: #acd; */
 }
 
-#profile{
-    width: 15%;
+#experience{
+    width: 70%;
+    /* background-color: #aaf; */
 }
 
-#logo {
+#codes{
     width: 70%;
 }
 
-.location_pin {
-    float: left;
+emp{
+    font-weight: 600;
+    color: #444452;
+}
+
+dat{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0px;
+    font-size: 80%;
+}
+
+.project_label{
+    color: black;
+}
+
+h3 > a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+h3 > a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h3 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+h3 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.logo{
+    margin: 0 auto;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
 }
