@@ -290,3 +290,11 @@ h3 > a:hover:before {
     font-weight: 300;
     text-align: center;
 }
+
+img{
+    width: 500px;
+}
+
+#project-description{
+    width: 600px;
+}

@@ -63,4 +63,12 @@
         padding-right: 0%;
     }
 
+    img{
+        width: 250px;
+    }
+
+    #project-description{
+        width: auto;
+    }
+
 }
