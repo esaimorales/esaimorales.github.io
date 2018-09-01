@@ -281,6 +281,8 @@ h3 > a:hover:before {
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr 1fr);
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 #copyright{

@@ -58,4 +58,9 @@
         font-size: 90%;
     }
 
+    .footer-grid{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
 }
