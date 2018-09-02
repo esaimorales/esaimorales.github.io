@@ -36,10 +36,12 @@
 
     #projects {
         width: 90%;
+        font-size: 90%;
     }
 
     #codes{
         width: 90%;
+        font-size: 90%;
     }
 
     .cards{
@@ -55,7 +57,7 @@
     }
 
     .code_project{
-        font-size: 90%;
+        /* font-size: 90%; */
     }
 
     .footer-grid{
@@ -64,7 +66,7 @@
     }
 
     img{
-        width: 250px;
+        width: 20rem;
     }
 
     #project-description{
