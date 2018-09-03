@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="menu.css" />
     <link rel="stylesheet" type="text/css" href="media.css" />
 
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- JS -->
     <script type="text/javascript" src="script.js"></script>
 
@@ -22,7 +25,8 @@
     <title>Esai Morales</title>
 
     <!-- ICONS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -62,7 +66,7 @@
 
                 <!-- NAVIGATION -->
 
-                <a id="hamburger-icon" href="#" class="open-close-btn">
+                <!-- <a id="hamburger-icon" href="#" class="open-close-btn">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -71,11 +75,25 @@
 
                 <div id="myNav" class="overlay">
                     <div class="overlay-content">
-                        <a href="#">About</a>
+                        <a href="#">Education</a>
                         <a href="#">Experience</a>
                         <a href="#">Web Projects</a>
+                        <a href="#">Projects</a>
                         <a href="#">Resume</a>
                     </div>
+                </div> -->
+
+                <a id="hamburger-icon" href="#" class="open-close-btn"><span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span></a>
+                <div id="myNav" class="overlay">
+                  <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
                 </div>
 
 
@@ -110,8 +128,39 @@
 
             <div id="experience" class="section">
                 <hr>
+                <h2 class="section_label">EDUCATION</h2>
+                </br>
+
+                <div class="job">
+                    <div>
+                    <emp>Santa Clara University</emp>
+                    </br>
+                    <ttl>Computer Science & Engineering, M.S.</ttl>
+                    </div>
+
+                    <div>
+                    <dat>June 2019</dat>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div>
+                    <emp>Santa Clara University</emp>
+                    </br>
+                    <ttl>Computer Science & Engineering, B.S.</ttl>
+                    </div>
+
+                    <div>
+                    <dat>June 2018</dat>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="experience" class="section">
+                <hr>
                 <h2 class="section_label">EXPERIENCE</h2>
-                <br>
+                </br>
 
                 <div class="job">
                     <div>
@@ -207,11 +256,11 @@
 
                 <div id="project-description">
                     <p>A fake news detection and fact summarization tool. News Breaking
-                    scrapes the web for news articles on a current event, compares them
+                    scrapes the web for articles on a current event, compares them
                     against each other to identify claims likely to be true,
                     and presents a succinct, fact-based summary to the reader.</p>
 
-                    <p>As part of my senior design at Santa Clara University, I designed and
+                    <p>As part of my senior design project at Santa Clara University, I designed and
                     developed the UI of the News Breaking web application. The application was
                     developed to be responsive, scaling accordingly for enhanced readability
                     across devices.</p>
@@ -391,8 +440,6 @@
         </div>
 
         <h4 id="copyright"> Designed by Esai Morales &copy; 2018 </h4>
-
-
     </div>
 
     </div>
