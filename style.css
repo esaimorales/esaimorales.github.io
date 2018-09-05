@@ -306,8 +306,9 @@ img{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background: white;
+    /* background-color: rgb(0,0,0); */
+    /* background-color: rgba(0,0,0, .4); */
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -317,8 +318,8 @@ img{
 .overlay-content {
     position: relative;
     top: 25%;
-    width: 100%;
-    text-align: center;
+    width: 90%;
+    text-align: right;
     margin-top: 30px;
 }
 
@@ -326,14 +327,14 @@ img{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #fff;
+    color: gray;
     text-transform: uppercase;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #ccc;
+    color: #007bff;
 }
 
 .open-close-btn {
@@ -401,7 +402,9 @@ img{
   top: 32px;
 }
 
-#hamburger-icon.hamburger-open span{background:#fff}
+#hamburger-icon.hamburger-open span{
+    /* background:#fff; */
+}
 
  #hamburger-icon.hamburger-open span:nth-child(1) {
   top: 18px;

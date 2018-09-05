@@ -12,10 +12,11 @@
     <link rel="stylesheet" type="text/css" href="media.css" />
 
     <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script> -->
 
-    <!-- JS -->
-    <script type="text/javascript" src="script.js"></script>
+
+    <!-- <script type="text/javascript" src="script.js"></script> -->
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
@@ -46,6 +47,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal({ duration: 1200 })
+    </script>
 
 </head>
 
@@ -89,10 +96,11 @@
                   <span></span></a>
                 <div id="myNav" class="overlay">
                   <div class="overlay-content">
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
+                    <a href="#">Education</a>
+                    <a href="#">Experience</a>
+                    <a href="#">Web Projects</a>
+                    <a href="#">Code</a>
+                    <a href="#">Resume</a>
                   </div>
                 </div>
 
@@ -225,31 +233,15 @@
             <div id="projects" class="section">
                 <hr>
                 <h2 class="section_label">WEB PROJECTS</h2>
+
                 <h3 class="project_label">
                     <a href="https://scholarcommons.scu.edu/cseng_senior/113/">News Breaking</a>
                 </h3>
 
                 <div class="cards">
-                    <!-- <h3 class="project_label">
-                        <a href="https://scholarcommons.scu.edu/cseng_senior/113/">News Breaking: Fake News Detection and Facts Summarization</a>
-                    </h3> -->
-
                     <div>
                         <img src="images/news_breaking_3phone_mockup.png"/>
                     </div>
-
-                    <!-- <div>
-                        <img src="images/mobile_main_page.png" style="width:200px;"/>
-                    </div>
-
-                    <div>
-                        <img src="images/mobile_menu_page.png" style="width:200px;" />
-                    </div>
-
-                    <div>
-                        <img src="images/mobile_sources_view.png" style="width:200px;" />
-                    </div> -->
-
                 </div>
 
                 </br>
@@ -297,7 +289,7 @@
                 <!-- COURSE EQUIVALENCE -->
 
                 <h3 class="project_label">
-                    <a href-"https://google.com">Course Equivalence Tracker</a>
+                    <a href="http://students.engr.scu.edu/~kvelcich/Application/login.html">Course Equivalence Tracker</a>
                 </h3>
 
                 <div class="cards">
@@ -335,6 +327,41 @@
                 </div>
                 <div class="langs">
                     Bootstrap
+                </div>
+
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+
+                <h3 class="project_label">
+                    <a href="https://">Esai Morales Guitar</a>
+                </h3>
+
+                <div class="cards">
+                    <div>
+                        <img src="images/guitar_website.png"/>
+                    </div>
+                </div>
+
+                </br>
+
+                <div id="project-description">
+                    <p>A responsive website for my music business. Designed with simplicity and minimalism in mind.
+                    Feel free to explore my guitar music here.</p>
+                </div>
+
+                </br>
+
+                <div class="langs">
+                    HTML5
+                </div>
+                <div class="langs">
+                    CSS3
+                </div>
+                <div class="langs">
+                    JavaScript
                 </div>
 
             </div>
@@ -443,6 +470,16 @@
     </div>
 
     </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
+    <script>
+        ScrollReveal().reveal('#experience', {delay: 400});
+        ScrollReveal().reveal('#projects', {delay: 800});
+        ScrollReveal().reveal('#codes', {delay: 1200});
+    </script>
 </body>
 
 <html>
