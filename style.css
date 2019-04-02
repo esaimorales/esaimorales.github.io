@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
+    /* background-color: #191e27; */
     /* overflow: hidden; */
     /* overflow-y: auto; */
 }
@@ -8,7 +9,7 @@ body{
 hr{
     width: 69px;
     height: 2px;
-    background-color: black;
+    background-color: #696969;
     border: none;
     float: left;
 }
@@ -56,7 +57,7 @@ hl{
 
 
 #intro{
-    width: 60%;
+    width: 100%;
     font-weight: 300;
 }
 
@@ -127,7 +128,7 @@ hl{
 .mid-content > div {
     padding-left: 1em;
     padding-right: 1em;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 /* PROJECT CARDS */
@@ -160,7 +161,7 @@ hl{
 
 .job {
     display: grid;
-    grid-template-columns: repeat(1, 1fr 1fr);
+    grid-template-columns: repeat(1, 2fr 1fr);
 }
 
 .job > div{
@@ -170,6 +171,37 @@ hl{
 
 .job > div:nth-child(even){
     text-align: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before{
+    font-family: 'FontAwesome';
+    content: '\f067';
+}
+
+.button {
+  background-color: white;
+  border-style: solid;
+  border-color: #007bff;
+  border-width: thin;
+  color: #007bff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.button:hover{
+    background-color: #007bff;
+    color: white;
+
 }
 
 /* LANGS */
@@ -224,7 +256,9 @@ hl{
 
 emp{
     font-weight: 600;
-    color: #444452;
+    /* color: #444452; */
+    color: #696969;
+    font-size: 18px;
 }
 
 dat{

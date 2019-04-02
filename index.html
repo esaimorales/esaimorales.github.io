@@ -28,6 +28,8 @@
     <!-- ICONS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -73,23 +75,6 @@
 
                 <!-- NAVIGATION -->
 
-                <!-- <a id="hamburger-icon" href="#" class="open-close-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-
-                <div id="myNav" class="overlay">
-                    <div class="overlay-content">
-                        <a href="#">Education</a>
-                        <a href="#">Experience</a>
-                        <a href="#">Web Projects</a>
-                        <a href="#">Projects</a>
-                        <a href="#">Resume</a>
-                    </div>
-                </div> -->
-
                 <a id="hamburger-icon" href="#" class="open-close-btn"><span></span>
                   <span></span>
                   <span></span>
@@ -107,36 +92,57 @@
 
                 <div id="intro">
                     <br>
-                    <p style="padding-bottom: 50px; padding-top:70px;"><hl>Hey!</hl></p>
-                    <p>
-                        My name is <hl>Esai Morales</hl>. I study Computer Science and
-                        Engineering at Santa Clara University and have a passion for web
-                        development, specifically front-end design. Check out my projects,
-                        experience, and resume below!
+                    <p style="padding-top:70px;padding-left:4px;color:#696969">Hi, my name is</p>
+                    <p class="section_label" style="font-size:60px; color: #007bff; margin: 0em;">Esai Morales.</p>
+                    <p class="section_label" style="font-size:60px; color: #ccc; margin: 0em;">I code but coding sucks ;)</p>
+                    <p style="padding-left:4px;color: #696969; width: 58%;">
+                        I'm a Software Engineer pursuing a Master's in Computer Science & Engineering
+                        at Santa Clara University. Currently working at my university's Frugal Innovation Hub
+                        where I assist in the coordination, development, and deployment of student-built, humanitarian software.
                     </p>
                 </div>
 
                 <div style="float: left;">
                     <a class="logo" href="mailto:emorales@scu.edu">
-                        <!-- <i class="fa fa-envelope fa-2x" aria-hidden="true" href="mailto:emorales@scu.edu"></i> -->
                         <i class="far fa-envelope"></i>
                     </a>
 
                     <a class="logo" href="https://www.linkedin.com/in/esai-morales-4a7867128/">
-                        <!-- <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> -->
                         <i class="fab fa-linkedin-in"></i>
                     </a>
 
                     <a class="logo" href="https://github.com/esaimorales">
-                        <!-- <i class="fa fa-github fa-2x" aria-hidden="true"></i> -->
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>
 
+            <div id="aboutme" class="section">
+                <hr>
+                <h2 class="section_label">A BIT ABOUT ME</h2>
+                </br>
+
+                <img src="images/profile.jpg" style="border-radius: 50%; width: 16%; margin-right: 18%"/>
+
+                </br>
+                </br>
+
+                <div id="intro" style="width: 50%;">
+                    <p style="color: #696969">
+                        Hello! I'm Esai, a Software Engineer and recent graduate from Santa Clara University. I was born and raised in
+                        Portland, Oregon but moved to Santa Clara, California for college and to pursue a career in tech.
+                    </p>
+                    <p style="color: #696969">
+                        I enjoy working on all kinds of software projects, from web development to data science and machine learning.
+                        When I'm not working on code, I enjoy playing classical guitar.
+                    </p>
+                </div>
+
+            </div>
+
             <div id="experience" class="section">
                 <hr>
-                <h2 class="section_label">EDUCATION</h2>
+                <h2 class="section_label">WHERE I STUDIED</h2>
                 </br>
 
                 <div class="job">
@@ -162,52 +168,103 @@
                     <dat>June 2018</dat>
                     </div>
                 </div>
-
             </div>
 
-            <div id="experience" class="section">
+            <div id="experience" class="section" style="color: #696969">
                 <hr>
-                <h2 class="section_label">EXPERIENCE</h2>
+                <h2 class="section_label">WHERE I'VE WORKED</h2>
                 </br>
+
+                <div class="job">
+                    <div>
+                    <emp>Google</emp>
+                    <br>
+                    <ttl>Incoming Engineering Resident</ttl>
+                    <!-- <br>
+                    <ttl>Incoming Engineering Resident </ttl><emp>@ Google</emp> -->
+                    </div>
+
+                    <div>
+                    <!-- <br> -->
+                    <dat>Sept 2019</dat>
+                    </div>
+                </div>
+
+                <div class="job">
+                    <div>
+                    <emp>Santa Clara University</emp>
+                    <br>
+                    <ttl>Teaching Assistant</ttl>
+                    <!-- <br>
+                    <br>
+                    <ttl style="font-size:12px">Here I did this but I also did that. I didn't do that or that.</ttl> -->
+                    <!-- <br>
+                    <ttl>Teaching Assistant </ttl><emp>@ Santa Clara University</emp> -->
+                    </div>
+
+                    <div>
+                    <!-- <br> -->
+                    <dat>Sept 2018 - Present</dat>
+                    </div>
+                </div>
 
                 <div class="job">
                     <div>
                     <emp>U.S. Bank</emp>
                     <br>
                     <ttl>Software Engineering Intern<ttl>
+                    <!-- <br>
+                    <br>
+                    <ttl style="font-size:12px">Here I did this but I also did that. I didn't do that or that.</ttl> -->
+                    <!-- <br>
+                    <ttl>Software Engineering Intern </ttl><emp>@ U.S. Bank</emp> -->
                     </div>
 
                     <div>
+                    <!-- <br> -->
                     <dat>Jun - Sept 2017</dat>
                     </div>
                 </div>
 
-
                 <div class="job">
                     <div>
-                    <emp>Santa Clara University, CPD</emp>
+                    <emp>Santa Clara University</emp>
                     <br>
                     <ttl>Website Technician<ttl>
-                    </div>
-
-                    <div>
-                    <dat>Jun 2016 - Jun 2018</dat>
-                    </div>
-                </div>
-
-                <div class="job">
-                    <div>
-                    <emp>D2D Nonprofit</emp>
+                    <!-- <br>
                     <br>
-                    <ttl>Web Developer Intern<ttl>
+                    <ttl style="font-size:12px">Here I did this but I also did that. I didn't do that or that.</ttl> -->
+                    <!-- <br>
+                    <ttl>Website Technician </ttl><emp>@ Santa Clara University</emp> -->
                     </div>
 
                     <div>
-                    <dat>Jan - Jun 2017</dat>
+                    <!-- <br> -->
+                    <dat>Jun 2016 - Jun 2017</dat>
                     </div>
                 </div>
 
                 <div class="job">
+                    <div>
+                    <emp>Darshan To Divinity</emp><br>
+                    <ttl>Web Developer Intern<ttl>
+                    <!-- <ul>
+                        <li>
+                        <ttl style="font-size:12px"><i class='fas fa-angle-right'></i> Improved site rendering speeds by converting an image-based site to HTML5 and CSS3 </ttl>
+                        </li>
+                    </ul> -->
+                    <!-- <br>
+                    <ttl>Web Developer Intern </ttl><emp>@ Darshan To Divinity</emp> -->
+                    </div>
+
+
+                    <div>
+                    <!-- <br> -->
+                    <dat>Jan 2016 - Jun 2017</dat>
+                    </div>
+                </div>
+
+                <!-- <div class="job">
                     <div>
                     <emp>Nike Company Store</emp>
                     <br>
@@ -215,24 +272,19 @@
                     </div>
 
                     <div>
-                    <dat>Summer 2014, 2015</dat>
+                    <dat>Summer 2014, 2015, Winter 2016</dat>
                     </div>
-                </div>
+                </div> -->
 
                 </br>
 
-                <p>
-                    <emp>CHECK OUT MY RESUME</emp>
-                    <a  href="MoralesEsaiResume.pdf" >
-                    <i style="color:#007bff; font-size: 1.3em" class="fas fa-arrow-circle-right"></i>
-                    </a>
-                </p>
+                <a href="images/Morales-Esai-Resume-Apr-2019.pdf" class="button">Resume</a>
 
             </div>
 
             <div id="projects" class="section">
                 <hr>
-                <h2 class="section_label">WEB PROJECTS</h2>
+                <h2 class="section_label">SOME STUFF I'VE BUILT</h2>
 
                 <h3 class="project_label">
                     <a href="https://scholarcommons.scu.edu/cseng_senior/113/">News Breaking</a>
@@ -336,7 +388,7 @@
                 </br>
 
                 <h3 class="project_label">
-                    <a href="https://">Esai Morales Guitar</a>
+                    <a href="https://esaimoralesguitar.com">Esai Morales Guitar</a>
                 </h3>
 
                 <div class="cards">
@@ -474,12 +526,6 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script type="text/javascript" src="script.js"></script>
 
-
-    <script>
-        ScrollReveal().reveal('#experience', {delay: 400});
-        ScrollReveal().reveal('#projects', {delay: 800});
-        ScrollReveal().reveal('#codes', {delay: 1000});
-    </script>
 </body>
 
 <html>
